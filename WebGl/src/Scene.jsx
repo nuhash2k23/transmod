@@ -10,7 +10,7 @@ import envMap from "./assets/envMap/potsdamer_platz_0.256k.hdr?url";
 const Scene = () => {
     return (
       <div className="canvas">
-        <Canvas camera={{ position: [0, 0, 20], fov: 45 }}>
+        <Canvas camera={{ position: [0, 0, 20], fov: 55 }}>
         
           <Environment files={envMap} />
           <Background />
